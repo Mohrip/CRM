@@ -9,7 +9,11 @@ import (
 	"github.com/gorilla/mux"
 )
 
-var customers = []models.Customer{}
+var customers = []models.Customer{
+	{ID: 1, Name: "Moh Test1 ", Role: "Manager", Email: "moh.test1@example.com", Phone: "123-456-7890", Contacted: true},
+	{ID: 2, Name: "Jane Smith", Role: "Developer", Email: "jane.smith@example.com", Phone: "987-654-3210", Contacted: false},
+	{ID: 3, Name: "Emily Johnson", Role: "Designer", Email: "emily.johnson@example.com", Phone: "555-555-5555", Contacted: true},
+}
 
 func GetCustomers(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
