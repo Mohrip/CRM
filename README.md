@@ -36,4 +36,9 @@ Important Note: when using POST method make sure you are sending this body witho
 }
 
 
+## Resources
 
+1- Go Programming Language https://go.dev/
+2- Gorilla Mux https://github.com/gorilla/mux
+3- JSON Encoding/Decoding in Go https://pkg.go.dev/encoding/json
+4- Udacity Go Programming Course
