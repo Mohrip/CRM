@@ -8,3 +8,22 @@ This is a simple CRM (Customer Relationship Management) application built using 
 - User Registration
 - User Profile Management
 - User Deletion
+
+## Getting Started
+
+1. Clone the repository:
+   
+   git clone <https://github.com/Mohrip/CRM.git>
+   cd to cmd file
+   
+
+2. Run the application:
+
+   go run main.go
+
+
+3. Access the API at `http://localhost:8080`.
+
+
+
+
